@@ -1,0 +1,38 @@
+.register{
+	width:10em;
+	position:relative;
+	background:grey;
+	border-width:2px;
+	border-style:solid;
+}
+body{
+	font-family:Verdana,Arial,Helvetica;
+	font-size:12px;
+}
+
+.form{
+	margin: 0 auto;
+	width:500px;
+	padding:14px;
+}
+input{
+	width:10em;
+	float:left;
+	margin-right:0.5em;
+	display:block;
+}
+.submit{
+	float:right;
+}
+fieldset{
+	background: #EBF4FB none repeat scroll 0 0;
+	border:2px solid #B7DDF2;
+	width:500px;
+}
+p{
+	border-bottom:1px solid #b7ddf2;
+	color:#666666;
+	font-size:11px;
+	margin-bottom:20px;
+	padding-bottom:10px;
+}
