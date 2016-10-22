@@ -1,5 +1,6 @@
 <?php
 include('db.php');
+//checks if it is valid email then sends 
 if (isset($_GET['email']) 
 	&& preg_match('/^([a-zA-Z0-9])+([a-zA-Z0-9\._-])*@([a-zA-Z0-9_-])+([a-zA-Z0-9\._-]+)+$/',
     $_GET['email'])){
