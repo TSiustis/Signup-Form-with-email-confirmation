@@ -1,6 +1,6 @@
 # Signup-Form-with-email-confirmation
 
-Simple signup form with email confirmation.
+Simple signup form with email confirmation for school project.
 
 I used xampp and mysql for the database which stores the user's
 information.
