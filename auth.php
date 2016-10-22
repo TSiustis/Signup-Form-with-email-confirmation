@@ -1,6 +1,7 @@
 <?php
 
 	include('db.php');
+        //validates all fields
 	if(isset($_POST['submitted'])){
 		$error = array();
 		if(empty($_POST['name'])){
@@ -29,6 +30,7 @@
 	else{
 		$password = $_POST['password'];
 	}
+		//if no errors the user is added to the database
 	if(empty($error)){
 		$query_verify_email = "SELECT * FROM users WHERE email ='$email'";
 		$result_verify_email = mysqli_query($dbc,$query_verify_email);
